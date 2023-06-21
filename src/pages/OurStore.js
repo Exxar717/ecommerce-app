@@ -194,9 +194,10 @@ const OurStore = () => {
                     name=""
                     className="form-control form-select"
                     id="SortBy"
+                    defaultValue={'best-selling'}
                   >
                     <option value="manual">Featured</option>
-                    <option value="best-selling" selected="selected">
+                    <option value="best-selling">
                       Best Selling
                     </option>
                     <option value="title-ascending">Alphabetically, A-Z</option>
